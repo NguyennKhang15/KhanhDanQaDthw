@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khánh Đan dễ thương qaa đi thôi!!</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+      background-color: #ffe6f2;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #ff66b2;
+      text-align: center;
+      z-index: 1;
+    }
+
+    .heart {
+      position: absolute;
+      font-size: 1.5em;
+      color: #ff66b2;
+      animation: float 3s ease-in-out infinite;
+      opacity: 0.8;
+    }
+
+    @keyframes float {
+      0% {
+        transform: scale(0) translateY(0);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1.5) translateY(-100vh);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Khánh Đan dễ thương qaa đi thôi!!</h1>
+
+  <script>
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.className = "heart";
+      heart.textContent = "💗";
+      document.body.appendChild(heart);
+
+      const size = Math.random() * 20 + 10 + "px";
+      heart.style.fontSize = size;
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.animationDuration = Math.random() * 3 + 2 + "s";
+
+      setTimeout(() => {
+        heart.remove();
+      }, 5000);
+    }
+
+    setInterval(createHeart, 300);
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khánh Đan dễ thương qaa đi thôi!!</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+      background-color: #ffe6f2;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #ff66b2;
+      text-align: center;
+      z-index: 1;
+    }
+
+    .heart {
+      position: absolute;
+      font-size: 1.5em;
+      color: #ff66b2;
+      animation: float 3s ease-in-out infinite;
+      opacity: 0.8;
+    }
+
+    @keyframes float {
+      0% {
+        transform: scale(0) translateY(0);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1.5) translateY(-100vh);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Khánh Đan dễ thương qaa đi thôi!!</h1>
+
+  <script>
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.className = "heart";
+      heart.textContent = "💗";
+      document.body.appendChild(heart);
+
+      const size = Math.random() * 20 + 10 + "px";
+      heart.style.fontSize = size;
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.animationDuration = Math.random() * 3 + 2 + "s";
+
+      setTimeout(() => {
+        heart.remove();
+      }, 5000);
+    }
+
+    setInterval(createHeart, 300);
+  </script>
+</body>
+</html>
